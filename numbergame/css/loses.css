@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "pink";
+    src: url(../assets/font/PinkRocketItalic-WGVv.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Vegabond";
+    src: url(../ASSETS/font/Vegabond-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../assets/wallpaperflare.com_wallpaper\ \(2\).jpg');
+  background-size: cover;      
+  background-position: center;  
+  background-repeat: no-repeat; 
+  height: 100vh;               
+  width: 100vw;               
+  overflow: hidden;           
+}
+.message{
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  font-family: "pink";
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 150px;
+}
